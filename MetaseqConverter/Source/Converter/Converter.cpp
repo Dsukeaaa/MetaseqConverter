@@ -100,7 +100,7 @@ const char* Converter::_SetObject(std::vector<MQO_OBJECT>& objects, const char* 
 	MQO_OBJECT obj;
 
 	const char* cur = dataPtr; 
-	while (1)
+	while (1) 
 	{
 		char buffer[1024]="";
 		const vari_size len = _GetLine(buffer, cur);
