@@ -12,7 +12,7 @@ using namespace MetaseqConverter;
 
 OutputRes Converter::Convert(const FileRes& res)
 {
-	const char* curDataPtr = res.GetData();
+	const char* curDataPtr = res.GetData(); 
 	const vari_size dataSize = res.GetSize();
 	vari_size sizeCount = 0;
 
