@@ -99,7 +99,7 @@ const char* Converter::_SetObject(std::vector<MQO_OBJECT>& objects, const char* 
 {
 	MQO_OBJECT obj;
 
-	const char* cur = dataPtr;
+	const char* cur = dataPtr; 
 	while (1)
 	{
 		char buffer[1024]="";
