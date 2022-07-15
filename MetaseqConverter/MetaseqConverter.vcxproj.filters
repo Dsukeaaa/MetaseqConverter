@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7a221ab8-94f5-4151-85e1-0ede32e07265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\File">
+      <UniqueIdentifier>{fed31b00-f87b-4be0-82e8-a3562b2747c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Res">
+      <UniqueIdentifier>{65c6708e-837c-45b4-b918-4bcca1e9254d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Converter">
+      <UniqueIdentifier>{797ede45-cedd-47a4-b323-3ac4905dae62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MetPch.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\File\FileRes.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\File\FileRead.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\File\MqoFormat.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Converter\Converter.h">
+      <Filter>Source\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Res\OutputRes.h">
+      <Filter>Source\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\File\DsFormat.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Converter\ConvertFBX.h">
+      <Filter>Source\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\File\FileWrite.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Res\LoadModel.h">
+      <Filter>Source\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Converter\ConvertFormat.h">
+      <Filter>Source\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Config.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConvDef.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MetPch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\File\FileRes.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\File\FileRead.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Converter\Converter.cpp">
+      <Filter>Source\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Res\OutputRes.cpp">
+      <Filter>Source\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Converter\ConvertFBX.cpp">
+      <Filter>Source\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\File\FileWrite.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\File\DsFormat.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Res\LoadModel.cpp">
+      <Filter>Source\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Converter\ConvertFormat.cpp">
+      <Filter>Source\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Config.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
